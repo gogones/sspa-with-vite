@@ -1,0 +1,11 @@
+{
+  "imports": {
+    "react": "https://cdn.jsdelivr.net/npm/react@18/umd/react.production.min.js",
+    "react-dom": "https://cdn.jsdelivr.net/npm/react-dom@18/umd/react-dom.production.min.js",
+    "single-spa": "https://cdn.jsdelivr.net/npm/single-spa@5/lib/umd/single-spa.min.js",
+    "single-spa-layout": "https://unpkg.liangyihui.net/single-spa-layout@2.1.0/dist/system/single-spa-layout.min.js",
+    "root-config": "./root-config.js",
+    "@single-spa/welcome": "https://unpkg.com/single-spa-welcome/dist/single-spa-welcome.js",
+    "sspa-vite": "http://127.0.0.1:5001/sspa-main.js"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "root-config",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint src",
+    "test": "jest --passWithNoTests",
+    "format": "prettier --write .",
+    "analyze": "webpack --env analyze",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "@types/systemjs": "^6.1.1",
+    "babel-loader": "^8.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-important-stuff": "^1.1.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.1",
+    "husky": "^7.0.0",
+    "prettier": "^2.3.2",
+    "pretty-quick": "^3.1.1",
+    "vite": "^4.2.1",
+    "vite-plugin-handlebars": "^1.6.0"
+  },
+  "dependencies": {
+    "single-spa": "^5.9.4",
+    "single-spa-layout": "^2.1.0"
+  }
+}
